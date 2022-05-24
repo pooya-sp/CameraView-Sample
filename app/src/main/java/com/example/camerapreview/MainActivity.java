@@ -96,6 +96,8 @@ private CameraView camera;
         nextFilterButton.setOnClickListener(this);
         prevFilterButton.setOnClickListener(this);
         camera.setLifecycleOwner(this);
+        // set custom filter
+       // camera.setFilter(new MyFilter());
     }
 
     @Override
